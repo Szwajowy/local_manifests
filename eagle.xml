@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device trees -->
+    <!-- *Custom Device tree* -->
+    <project name="Szwajowy/android_device_sony_eagle" path="device/sony/eagle" remote="github" revision="cm-14.1" />
+    <project name="Szwajowy/android_device_sony_yukon" path="device/sony/yukon" remote="github" revision="cm-14.1" />
+
+    <!-- Common device trees -->
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+
+  <!-- Kernel -->
+  <project name="Szwajowy/android_kernel_sony_msm8226" path="kernel/sony/msm8226" remote="github" revision="stable" />
+
+  <!-- Vendor -->
+  <project name="Szwajowy/android_vendor_sony_yukon" path="vendor/sony" remote="github" revision="cm-14.1" />
+
+  <!-- Boring SSL -->
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="cm-14.1" />
+
+  <!-- Busybox -->
+  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
+
+  <!-- TWRP -->
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
+
+</manifest>
